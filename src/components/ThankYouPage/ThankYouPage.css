@@ -1,0 +1,44 @@
+.thank-you-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76vh;
+  }
+  .thank-you-card{
+    height: 340px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px 1px #bababa;
+    background-color:white;
+
+  }
+  .hands-image{
+    width: 323px;
+    height: 140px;
+    padding: 10px 0px;
+
+  }
+  .thank-you-message{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+  }
+  .back-btn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #202020;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 6px;
+  }
+  

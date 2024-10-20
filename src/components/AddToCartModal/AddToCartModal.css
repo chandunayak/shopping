@@ -1,0 +1,52 @@
+.cart-modal {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .modal-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(172, 241, 163);
+    padding: 12px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px 1px #bababa;
+  }
+  .modal-card-title{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  .modal-card-price{
+    font-size: 22px;
+    font-weight: 600;
+    color: crimson;
+    margin-top: -10px;
+  }
+  .modal-card-button{
+    background-color: crimson;
+    color: white;
+    padding: 6px 14px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  
+  
